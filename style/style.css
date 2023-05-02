@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;  
+}
+
+#container{
+    background-image: url(https://www.seokratie.at/wp-content/uploads/2022/11/seokratie_was-ist-pinterest-scaled-1.jpeg);
+    background-color: rgba(0, 0, 0, 0.623);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#container #container_text{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 24px;
+    font-weight: 500;
+    width: 20%;
+    line-height: 75px;
+}
+
+#containerLogin{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 80%;
+    padding: 10px 0;
+    border-radius: 30px;
+}
+#containerLogin h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+#containerLogin p{
+    font-size: 12px;
+    margin: 5px 0;
+}
+#logo{
+    height: 28px;
+    width: 28px;
+}
+.termos{
+    margin: 0 auto;
+    font-size: 11px;
+    width: 70%;
+    text-align: center;
+}
+.separador{
+    margin: 20px 0;
+}
+.separador2{
+    margin: 5px 0;
+}
+.btn{
+    margin: 4px 0;
+}
+#emailUser{
+    display: flex;
+    flex-direction: column;
+}
+#emailUser p{
+    font-size: 0.6rem;
+}
+#emailUser .email2{
+    height: 35px;
+    width: 190px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+}
+#senha p{
+    font-size: 0.6rem;
+}
+#senha .email2{
+    height: 35px;
+    width: 190px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+}
+#data p{
+    font-size: 0.6rem;
+}
+#data .email2{
+    height: 35px;
+    width: 190px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+}
+
+#senha{
+    display: flex;
+    flex-direction: column;
+}
+#data{
+    display: flex;
+    flex-direction: column;
+}
